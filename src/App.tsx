@@ -1,10 +1,17 @@
 import * as React from "react";
+import { Provider } from "mobx-react";
+import Counter from "./components/Counter";
+import CountStore from "./stores/CountStore";
 
-import CountContainer from "./containers/CountContainer";
+const stores = new CountStore();
 
 class App extends React.Component {
   public render() {
-    return <CountContainer />;
+    return (
+      <Provider count={stores}>
+        <Counter />
+      </Provider>
+    );
   }
 }
 
