@@ -7,10 +7,15 @@ interface Props {
 }
 
 @inject("count")
+// countが使えるようになる
+
 @observer
+// vueでいうwatchでstateが更新させるとコンポーネントも変わる
+// CountStoreのnumとか
 class Counter extends React.Component<Props> {
   public render() {
     const { count } = this.props;
+    // <=> const count = this.props.count;
 
     return (
       <div>
