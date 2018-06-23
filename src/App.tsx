@@ -1,5 +1,5 @@
-import * as React from "react";
 import { Provider } from "mobx-react";
+import * as React from "react";
 import Counter from "./components/Counter";
 import CountStore from "./stores/CountStore";
 
