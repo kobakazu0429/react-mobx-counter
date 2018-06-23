@@ -19,20 +19,18 @@ export default class Counter extends React.Component<Props> {
     const { count } = this.props;
     // <=> const count = this.props.count;
 
-    const Div = styled.div`
-      text-align: center;
-      background-color: rgba(186, 203, 255, 0.8);
-    `;
-
     return (
-      <div>
-        <Div>
-          Counter : {count!.num} <br />
-          <button onClick={count!.onIncrement}> + </button>
-          <button onClick={count!.onDecrement}> - </button>
-          <br /> GetDoubleCount: {count!.getDoubleCount}
-        </Div>
-      </div>
+      <Div>
+        Counter : {count!.num} <br />
+        <button onClick={count!.onIncrement}> + </button>
+        <button onClick={count!.onDecrement}> - </button>
+        <br /> GetDoubleCount: {count!.getDoubleCount}
+      </Div>
     );
   }
 }
+
+const Div = styled.div`
+  text-align: center;
+  background-color: rgba(186, 203, 255, 0.8);
+`;
