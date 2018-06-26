@@ -1,5 +1,9 @@
 # 2018/6/29 React-tokkun へ参加する方へ
 
+## DEMO
+
+[https://kobakazu0429.github.io/react-mobx-counter/](https://kobakazu0429.github.io/react-mobx-counter/)
+
 ## 動作確認
 
 本リポジトリをクローン後下記コマンドを実行する
@@ -9,7 +13,7 @@
 % yarn start
 ```
 
-その後[http://localhost:3000/](http://localhost:3000/)へアクセスし、カウンターが正常に動作していることを確認する
+その後[http://localhost:3000/](http://localhost:3000/)へアクセスし、[DEMO](#demo)のように正常に動作していることを確認する
 
 ## コマンド一覧
 
