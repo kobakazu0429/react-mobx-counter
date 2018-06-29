@@ -1,5 +1,8 @@
-React + MobX + TypeScript + styled-components
-を使って簡単なカウンターを作ろう
+
+# React + MobX + TypeScript + styled-components
+#### を使って簡単なカウンターを作ろう
+
+---
 
 [一部資料ないのソースコードが読みにくいと思うので、その際はGitHubのリポジトリから確認、コピペしてください(https://github.com/kobakazu0429/react-mobx-counter)](https://github.com/kobakazu0429/react-mobx-counter)
 
